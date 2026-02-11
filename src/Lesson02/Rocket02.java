@@ -4,11 +4,11 @@ public class Rocket02 {
 
     public static void main(String[] args) {
 
-        System.out.print(
+       System.out.print(
                 "\t  /\\\n" +
                 "\t /  \\\n" +
-                "\t/    \\\n" +
-                "\t|____|\n" +
+                "\t/____\\\n" +
+                "\t|    |\n" +
                 "\t|ISS |\n" +
                 "\t|____|\n" +
                 "\t  ||  \n" +

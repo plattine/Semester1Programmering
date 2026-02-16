@@ -32,9 +32,9 @@ public class BankAccount {
         }
     }
 
-    public double transferTo(BankAccount, double amount) {
+    //public double transferTo(String BankAccount, double amount) {
 
-    }
+    //}
 
     @Override
     public String toString() {

@@ -24,10 +24,10 @@ public class BankAccountTest {
             account01.withdrawAmount(amount);
             System.out.println(account01);
         }
-        if (choice.equals("transfer")) {
-            account01.transferTo(account01.balance, amount);
-            System.out.println(account01);
-        }
+        //if (choice.equals("transfer")) {
+        //    account01.transferTo(account01.balance, amount);
+        //    System.out.println(account01);
+        //}
 
 
 

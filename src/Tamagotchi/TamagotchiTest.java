@@ -14,6 +14,7 @@ public class TamagotchiTest {
         gameLoop(pet, input);
     }
 
+    // creates pet - can be refactored later
     public static Tamagotchi createPet(Scanner input) {
         while (true) {
             System.out.println("Hello, would you like to create a dog or a cat? " +
@@ -48,7 +49,7 @@ public class TamagotchiTest {
         }
     }
 
-
+    //game loop - can be refactored later
     public static void gameLoop(Tamagotchi pet, Scanner input) {
 
         while (true) {

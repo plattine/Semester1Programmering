@@ -1,0 +1,2 @@
+Once upon a time in a small village,
+there lived a young programmer.This is a test of FileWriter performance.

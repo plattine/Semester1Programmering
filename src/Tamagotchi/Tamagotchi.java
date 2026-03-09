@@ -7,6 +7,7 @@ abstract class Tamagotchi {
     private String name;
     private int energy;
 
+    //constructor
     public Tamagotchi(String name, int energy) {
         this.name = name;
         this.energy = energy;

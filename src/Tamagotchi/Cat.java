@@ -12,7 +12,7 @@ class Cat extends Tamagotchi {
             setEnergy(getEnergy() + 2);
             System.out.println(getName() + " loves fish!");
         } else {
-            setEnergy(getEnergy() + 1);
+            setEnergy(getEnergy() + 2);
             System.out.println(getName() + " eats the " + food + " but would rather eat fish.");
         }
     }

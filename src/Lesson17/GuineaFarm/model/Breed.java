@@ -5,5 +5,7 @@ public enum Breed {
     AMERICAN,
     PERUVIAN,
     ABYSSINIAN,
-    SHELTIE
+    SHELTIE,
+    CAUCASIAN,
+    ASIAN
 }

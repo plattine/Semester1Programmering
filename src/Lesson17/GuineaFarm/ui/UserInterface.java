@@ -1,10 +1,14 @@
 package Lesson17.GuineaFarm.ui;
 
-import Lesson17.GuineaFarm.model.GuineaPig;
-import Lesson17.GuineaFarm.service.GuineaPigFileHandler;
-import Lesson17.GuineaFarm.util.GuineaPigSorter;
+import Lesson17.GuineaFarm.model.*;
+import Lesson17.GuineaFarm.service.*;
+import Lesson17.GuineaFarm.util.*;
+
+
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -43,15 +47,28 @@ public class UserInterface {
                     break;
 
                 case 2:
-                    GuineaPigSorter.sortByName(pigs);
+                    //GuineaPigSorter.sortByName(pigs);
+                    Collections.sort(pigs, new NameComparator());
+                    System.out.println("Sorted by name (Collections.sort):");
+                    pigs.forEach(System.out::println);
+                    System.out.println();
                     break;
 
                 case 3:
-                    GuineaPigSorter.sortByAge(pigs);
+                    //GuineaPigSorter.sortByAge(pigs);
+                    Collections.sort(pigs, new AgeComparator());
+                    System.out.println("Sorted by age (Collections.sort):");
+                    pigs.forEach(System.out::println);
+                    System.out.println();
+
                     break;
 
                 case 4:
-                    GuineaPigSorter.sortByWeight(pigs);
+                    //GuineaPigSorter.sortByWeight(pigs);
+                    Collections.sort(pigs, new WeightComparator());
+                    System.out.println("Sorted by weight (Collections.sort):");
+                    pigs.forEach(System.out::println);
+                    System.out.println();
                     break;
 
                 case 5:

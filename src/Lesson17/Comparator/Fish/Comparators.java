@@ -18,3 +18,14 @@ class FishNameComparator implements Comparator<Fish> {
         return f1.getName().compareToIgnoreCase(f2.getName());
     }
 }
+
+
+// Comparator to sort fish by age (ascending)
+class FishAgeComparator implements Comparator<Fish> {
+    @Override
+    public int compare(Fish f1, Fish f2) {
+        return Integer.compare(f1.getAge(), f2.getAge());
+    }
+
+
+}

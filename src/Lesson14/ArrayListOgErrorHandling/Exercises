@@ -1,0 +1,11 @@
+Try–Catch Practice
+----------
+1. Safe Car Removal
+Modify removeCar() so the program asks the user for an index. Use try–catch to handle both:
+IndexOutOfBoundsException (invalid index).
+NumberFormatException (if the user writes text instead of a number).
+
+// BONUS: Make ONLY if you are ready with your other 1. exercises in ArrayList and Enum package.
+2. FuelType Input
+Let the user type a fuel type ("PETROL", "ELECTRIC", etc.) and try to convert it to FuelType.valueOf().
+Use try–catch to catch IllegalArgumentException if they type something invalid.

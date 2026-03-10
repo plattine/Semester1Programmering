@@ -1,0 +1,23 @@
+📝 Assignment: Code Analysis (Version2)
+
+1. 📌 Part 1 - Create ONE of the following:
+A flow diagram of the program
+https://www.geeksforgeeks.org/competitive-programming/an-introduction-to-flowcharts/
+https://www.softwareideas.net/a/1679/while-and-do-while-loop-flowchart-
+
+2. 📌 Part 2 – Code Structure and Logic
+Answer the following:
+a. Why is random.nextInt(5) used instead of another number?
+b. Why is an array used for shipLocation?
+c. Why is a boolean isAlive variable needed?
+d. Why is numGuesses++ inside the loop?
+e. What would happen if isAlive = false; was removed?
+f. Which class is responsible for checking hits?
+g. What is the advantage of separating Ship and GameHelper into different classes?
+
+3.📌 Part 3 - Deeper Reflection
+a. Is this program object-oriented? Explain why.
+b. Which object has the main responsibility for the game logic?
+c. Does the main method have too much responsibility? Why or why not?
+d. How could the design be improved?
+e. If you had to expand the game (for example: multiple ships), what would need to change?

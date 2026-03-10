@@ -1,0 +1,13 @@
+1. Lav et nyt Enum kaldet Fag med fx:
+FORTRYLLELSER,
+ELIXIR,
+FORSVAR_MOD_MØRKE_KUNSTER,
+ASTROLOGI
+
+// BONUS: Make ONLY if you are ready with your other 1. exercises in ArrayList and Exception package.
+
+2. Tilføj et felt Fag favoritFag i Elev-klassen.
+
+Opdater konstruktøren, så man kan angive navn, hus og favoritfag.
+
+3. Lav en metode, der udskriver alle elever, der har samme favoritfag.

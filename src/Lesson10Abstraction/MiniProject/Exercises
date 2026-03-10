@@ -1,0 +1,38 @@
+📚 STUDENT ASSIGNMENT
+🪑 Furniture Management System (OOP)
+
+You must build a small furniture management system. I have made a FurnitureTest class,
+ but the other classes are missing.
+
+🧪 Step 1 – REMOVE */ FROM FurnitureTest Class
+Draw a class and flow diagram of the main method.
+
+🧱 Step 2 – Create an Abstract Class: Furniture
+Create an abstract class called Furniture
+Add private attributes:
+String name
+double price
+String material
+
+Add:
+Constructor
+Getters and setters
+toString() method
+
+Add TWO abstract methods:
+public abstract String getDescription();
+public abstract double calculateShippingCost();
+
+🧱 Step 3 – Create Subclasses
+Create at least these classes:
+Chair
+Table
+Sofa
+Bed
+
+Each class must:
+Extend Furniture
+Implement the abstract methods
+Possibly add extra attributes (Chair: private boolean hasArmRest;
+Table: private int numberOfLegs; Sofa: private int seats; Bed: private String size;)
+

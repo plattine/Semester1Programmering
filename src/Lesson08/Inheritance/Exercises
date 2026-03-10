@@ -1,0 +1,24 @@
+1. Tilføj en ny subklasse
+
+Opgave: Lav en ny klasse Piano der arver fra Instrument.
+Krav:
+Felt: keys (antal tangenter).
+Override toString() og show().
+Tilføj en metode pressKeys() der printer "Piano spilles: Pling Plong!".
+
+2. Ændre eksisterende felter
+Opgave: Tilføj et felt brand til Instrument.
+Krav:
+Opdater konstruktører i Guitar og Drum til at inkludere brand.
+Opdater toString() i alle klasser til at vise brand.
+
+3. Tilføj en metode til superklassen
+Opgave: Tilføj en metode tune() i Instrument som printer "Instrumentet tunes...".
+Krav:
+Test at tune() virker både for Guitar og Drum uden at ændre subklasserne.
+
+4. Skift visibility
+Opgave: Ændre protected felter i Instrument til private.
+Krav:
+Tilføj getters i superklassen (getName(), getType()).
+Opdater subklasserne til at bruge getters i toString() i stedet for direkte feltadgang.

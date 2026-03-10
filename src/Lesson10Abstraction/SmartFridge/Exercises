@@ -1,0 +1,48 @@
+Assignment: You Are the Software Architect
+Scenario
+
+You are hired as the lead software architect for a company developing a new smart refrigerator system.
+Your team has implemented two versions:
+Version A: Inheritance without Lesson10Abstraction (uses instanceof)
+Version B: Inheritance with Lesson10Abstraction and polymorphism
+
+The company expects:
+The system will grow
+New product types will be added frequently
+Multiple developers will work on the code
+The system must be maintainable for 10+ years
+Your task is to choose one version and defend your architectural decision.
+
+Prepare a short architectural defense (written or oral) where you:
+
+1️⃣ Choose Version A or Version B
+You must clearly state your choice.
+Justify your decision using technical arguments
+
+🔥 Understanding Design
+Which version is easier to extend?
+What happens if we add a new class Cheese? Where do you need to modify the source code?
+Is instanceof often considered good or bad OOP design? Why?
+
+🧠 Design Thinking
+In Version 1, which class has too much responsibility?
+In Version 2, where is the behavior placed?
+Which version respects encapsulation better?
+
+🔍 Technical Understanding
+Is downcasting good or bed way of programmering? ((Milk) product).pourGlass();
+What could happen if we cast incorrectly?
+Why does product.useProduct() work without knowing the type?
+
+📈 Scalability Questions
+Which version scales better for 20 product types?
+Which version would require more modifications when adding new subclasses?
+Which version is easier to maintain?
+
+🎯 Conceptual OOP Questions
+Where does polymorphism happen in Version1 or Version 2?
+What role does Lesson10Abstraction play?
+Which of the SmartFridge version is cleaner?
+Which version would you use in a real company?
+
+

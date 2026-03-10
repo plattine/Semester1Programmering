@@ -1,0 +1,16 @@
+This is a dog, its name is Boris, and it's 3 years old. Boris loves playing with a Rubber bone. 
+Boris likes bones and meat. 
+Dogs love to say: Woof! Woof! 
+----------------
+This is a dog, its name is Lina, and it's 5 years old. Lina loves playing with a Wood stick. 
+Lina likes bones and meat. 
+Dogs love to say: Woof! Woof! 
+----------------
+This is a cat, its name is Otto, and it's 4 years old. Otto's favorite activity is: sleeping on the couch. 
+Otto loves eating fish. 
+Cats love to say meow, meow!
+----------------
+This is a bird, its name is Tweety, and it's 2 years old. Tweety's time to go to bed is: 19.0. 
+Tweety loves eating seeds. 
+Birds usually say: cheep! cheep! 
+----------------

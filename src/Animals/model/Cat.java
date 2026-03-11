@@ -1,4 +1,4 @@
-package Animals;
+package Animals.model;
 
 public class Cat extends Animal {
     private String favoriteActivity;

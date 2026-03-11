@@ -1,4 +1,4 @@
-package Animals;
+package Animals.model;
 
 public class Bird extends Animal {
 

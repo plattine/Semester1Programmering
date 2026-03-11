@@ -1,6 +1,6 @@
-package Animals;
+package Animals.model;
 
-abstract class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
